@@ -55,7 +55,7 @@ public class Ellipse {
     }
 
     public String toString() {
-        return String.format("(%s, %s)-[%s, %s], %s, P=%s, A=%s", startPoint.getX(), startPoint.getY(), height, width, getType(), calculatePerimeter(), calculateArea());
+        return String.format("%s-[%s, %s], %s, P=%s, A=%s", startPoint, height, width, getType(), calculatePerimeter(), calculateArea());
     }
 
     public boolean equal(Ellipse otherEllipse) {

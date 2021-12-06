@@ -7,7 +7,8 @@ public class EllipseDemo {
         Ellipse e1 = new Ellipse();
         Ellipse e2 = new Ellipse(p1, 5, 6 );
         Ellipse e3 = new Ellipse(p1, 5, 6);
-        Ellipse e4 = new Ellipse(p2, 3, 2);
+        Ellipse e4 = new Ellipse();
+        e4.initialize();
 
         System.out.println("Ellipse 1: " + e1);
         System.out.println("Ellipse 2: " + e2);
